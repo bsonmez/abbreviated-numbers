@@ -25,6 +25,6 @@ yarn add abbreviated-numbers
 ```javascript
 const { Abbreviated } = require('abbreviated-numbers');
 
-Abbreviated.get(number); //return 2K for 2000.
-Abbreviated.length(number); //return 4 for 2000.
+Abbreviated.get(number); //returns 2K for 2000.
+Abbreviated.length(number); //returns 4 for 2000.
 ```
