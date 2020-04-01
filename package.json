@@ -16,6 +16,5 @@
   },
   "bugs": "https://github.com/bsonmez/abbreviated-numbers/issues",
   "author": "Burak Sonmez <buraksonmez@hotmail.com.tr>",
-  "license": "MIT",
-  "private": true
+  "license": "MIT"
 }
