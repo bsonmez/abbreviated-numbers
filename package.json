@@ -1,9 +1,15 @@
 {
   "name": "abbreviated-numbers",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "A simple tool to abbreviate numbers",
   "main": "index.js",
-  "keywords": ["abbreviated", "abbreviated numbers", "short numbers","abbreviate","numbers"],
+  "keywords": [
+    "abbreviated",
+    "abbreviated numbers",
+    "short numbers",
+    "abbreviate",
+    "numbers"
+  ],
   "repository": {
     "url": "https://github.com/bsonmez/abbreviated-numbers",
     "type": "git"
