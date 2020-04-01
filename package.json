@@ -1,0 +1,15 @@
+{
+  "name": "abbreviated-numbers",
+  "version": "1.0.0",
+  "description": "A simple tool to abbreviate numbers",
+  "main": "index.js",
+  "keywords": ["abbreviated", "abbreviated numbers", "short numbers","abbreviate","numbers"],
+  "repository": {
+    "url": "https://github.com/bsonmez/abbreviated-numbers",
+    "type": "git"
+  },
+  "bugs": "https://github.com/bsonmez/abbreviated-numbers/issues",
+  "author": "Burak Sonmez <buraksonmez@hotmail.com.tr>",
+  "license": "MIT",
+  "private": true
+}
