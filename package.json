@@ -1,6 +1,6 @@
 {
   "name": "abbreviated-numbers",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "A simple tool to abbreviate numbers",
   "main": "index.js",
   "keywords": [
