@@ -1,4 +1,9 @@
 const Abbreviated = {
+  /**
+   * @param {Number} value
+   * 
+   * @returns {number}
+   */
   length(value) {
     let len = 0;
     while (value > 1) {
@@ -8,6 +13,13 @@ const Abbreviated = {
     return len;
   },
 
+
+
+    /**
+   * @param {Number} value
+   * 
+   * @returns {String}
+   */
   get(value) {
     const len = this.length(value);
 
@@ -36,9 +48,25 @@ const Abbreviated = {
     if (len > 18 && len <= 21) {
       return `${value.toString().substr(0, len - 18)}Q`;
     }
-
     return value;
   },
+
+  
+    /**
+   * @param {Number} amount
+   * @param {Number} len
+   * 
+   * @returns {number}
+   */
+  fixed(amount, len = 2) {
+    if(len>0){
+      let x = parseFloat(amount).toFixed(len);
+      let [a, b] = x.split(".");
+      b = b.substr(0, len);
+      return parseFloat(`${a}.${b}`);
+    }
+    return parseInt(amount);
+  }
 };
 
 module.exports = { Abbreviated };

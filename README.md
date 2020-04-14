@@ -27,4 +27,6 @@ const { Abbreviated } = require('abbreviated-numbers');
 
 Abbreviated.get(number); //returns 2K for 2000.
 Abbreviated.length(number); //returns 4 for 2000.
+Abbreviated.fixed(number); //returns 142.87 for 142.8686275710162478510210957
+
 ```
